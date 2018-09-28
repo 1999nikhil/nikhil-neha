@@ -4,17 +4,217 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="this is our official website.">
-    <title>testing of two css </title>
+    <title>testing of Ahimsa </title>
     <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
-    <link rel="stylesheet" type="text/css" href="main3.css">
-    <link rel="stylesheet" type="text/css" href="main1.css">
-    
+    <style>
+	.photo{
+		background:url(images/Ahimsa/Background.jpg);
+		height:auto;
+		width:100%;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	.ph_box{
+		height:auto;
+		width:100%;
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		flex-flow:wrap;
+
+	} 
+	
+.inph_box{
+		height:280px;
+		width:320px;
+		margin:21px;
+		background:white;
+		box-sizing:border-box;
+		font-size:20px;
+		position:relative;
+		padding:10px;
+		margin-top:30px;
+		font-family:Aguafina Script;
+	}
+ 
+
+
+
+.inph_box:after
+{   position:absolute;
+    content:attr(data_text);
+    bottom:0;
+    left:0;
+    right:0;
+    word-wrap:break-word;
+    overflow:hidden;
+    background-color:rgba(0,0,0,.9);
+    color:white;
+    padding:20px;
+    opacity:1;
+    transition:1s;
+    top:100px;
+    transform: scale(0);
+    -webkit-transition: .4s ease;
+    text-align:center;
+    justify-content:flex-start;
+   
+
+}
+.inph_box:hover:after
+{
+
+ opacity:3;
+    top:210px;
+    transform:scale(1);
+}
+
+
+
+#inph_box1
+{
+	background:url(images/4th_Year/Varnika.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box2
+{
+	background:url(images/4th_Year/Prabhash.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box3
+{
+	background:url(images/4th_Year/Stuti.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box4
+{
+	background:url(images/4th_Year/Yash.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box5
+{
+	background:url(images/4th_Year/Sakshi.jpg);
+	background-position:;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box6
+{
+	background:url(images/4th_Year/Ravi.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box7
+{
+	background:url(images/4th_Year/Ojasavi.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box8
+{
+	background:url(images/4th_Year/Shubham.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box9
+{
+	background:url(images/4th_Year/Noorus.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box10
+{
+	background:url(images/4th_Year/Mohit.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box11
+{
+	background:url(images/4th_Year/Vartika.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#inph_box12
+{
+	background:url(images/4th_Year/Rishav.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+@media screen and (max-width:1350px) {
+
+	.box{
+		width:80%;
+	}
+}
+	@media screen and (max-width:600px) {
+	       .box{
+		width:90%;   
+    	}
+ } 
+
+    </style>
 
     
   </head>
   <body>
-    <p> my name is nikhil kumar </p>
-    <h1> i m from bihar</h1>
-  <a href="nikhil.html">  <button type="submit" >Click Me </button> <a>
+      <div class="photo">
+    	<h1 align="center" style="color:white;padding-top:60px">4th Year Member</h1>
+      <div class="ph_box">   
+          <div class="inph_box" id="inph_box1" data_text="Varnika Jain (EC)">
+          </div>
+          <div class="inph_box" id="inph_box2" data_text="Prabhash Singh (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box3" data_text="Stuti Jain (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box4" data_text="Yash Chaudhary (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box5" data_text="Sakshi Verma (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box6" data_text="Ravi Shankar Singh (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box7" data_text="Ojasavi Srivastava (EE)">
+          </div>
+          <div class="inph_box" id="inph_box8" data_text="Shubham Yadav (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box9" data_text="Noorus Seher (BT)">
+          </div>
+          <div class="inph_box" id="inph_box10" data_text="Mohit Pandey (CSE)">
+          </div>
+          <div class="inph_box" id="inph_box11" data_text="Vartika Tyagi (EC)">
+          </div>
+           <div class="inph_box" id="inph_box12" data_text="Rishav Shrivastav (CSE)">
+          </div>
+                       
+
+          
+      </div>
+    </div>
   </body>
 </html>
